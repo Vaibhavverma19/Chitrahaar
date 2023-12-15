@@ -8,7 +8,7 @@ import Home from "./pages/Home/Home";
 import Explore from "./pages/explore/Explore";
 import Details from "./pages/details/Details";
 import SearchResult from "./pages/searchResult/SearchResult";
-import PageNotFound from "./pages/404/pageNotFound";
+import PageNotFound from "./pages/404/PageNotFound";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
