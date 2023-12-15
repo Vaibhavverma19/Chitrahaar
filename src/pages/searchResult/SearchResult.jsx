@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './style.scss'
 import { useParams } from 'react-router-dom'
-import { fetchDataFromApi } from '../../utils/api';
+import { fetchDataFromApi } from '../../utils/Api';
 import ContentWrapper from '../../components/contentWrapper/ContentWrapper';
 import Spinner from './tools/spinner/Spinner';
 import InfiniteScroll from 'react-infinite-scroll-component';
