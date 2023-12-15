@@ -8,7 +8,7 @@ import Img from "../../../components/lazyloadimg/Img";
 import useFetch from "../../../hooks/useFetch";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 import CircleRating from "../../../components/circleRating/CircleRating";
-import { PlayIcon } from "./PlayIcon";
+import { PlayIcon } from "./Playicon";
 import VideoPopup from "../../../components/videoPopup/VideoPopup";
 const DetailsBanner = ({ crew }) => {
   // console.log(crew);

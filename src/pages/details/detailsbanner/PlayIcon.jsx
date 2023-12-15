@@ -1,4 +1,4 @@
-export const PlayIcon = () => {
+export const Playicon = () => {
     return (
         <svg
             version="1.1"
