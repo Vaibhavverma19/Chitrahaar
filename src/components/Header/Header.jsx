@@ -30,6 +30,7 @@ const Header = () => {
   const handlequery = (event) => {
     if (event.key === "Enter" && query.length > 0) {
       //console.log(query);
+      event.preventDefault();
       navigate(`/search/${query}`);
       setTimeout(()=>setShowSearch(false),100);
     }
