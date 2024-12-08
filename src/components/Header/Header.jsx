@@ -29,7 +29,7 @@ const Header = () => {
 
   const handlequery = (event) => {
     if (event.key === "Enter" && query.length > 0) {
-      //console.log(query);
+      
       event.preventDefault();
       navigate(`/search/${query}`);
       setTimeout(()=>setShowSearch(false),100);
@@ -48,7 +48,7 @@ const Header = () => {
       <ContentWrapper>
         <div className="logo">
           {/* <img src={logo} onClick={gohome}></img> */}
-          <h1 onClick={gohome}>Chitrahaar</h1>
+          <h1 onClick={gohome}>FilmBuddy</h1>
         </div>
         <ul className="menuItems">
           <li className="menuItem" onClick={()=>navigationHandler("tv")}>TV Shows</li>
